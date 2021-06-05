@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite">
+  <test name="Validregisteraaion">
+  
+  <parameter name="fn" value="arun"/>
+  <parameter name="ln" value="bala"/>
+  <parameter name= "g" value="female"/>
+  
+    <classes>
+      <class name="practice.learnparam"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+  
+  <test name="InValidregisteraaion">
+  
+  <parameter name="fn" value="****"/>
+  <parameter name="ln" value="jjjj"/>
+  <parameter name= "g" value="male"/>
+  
+    <classes>
+      <class name="practice.learnparam"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

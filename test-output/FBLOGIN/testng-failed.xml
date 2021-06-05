@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FBLOGIN]">
+  <test thread-count="5" name="LoginValidationTest(failed)">
+    <classes>
+      <class name="selenium.LoginValidation">
+        <methods>
+          <include name="createnewlink"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selenium.LoginValidation -->
+    </classes>
+  </test> <!-- LoginValidationTest(failed) -->
+</suite> <!-- Failed suite [FBLOGIN] -->

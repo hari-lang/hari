@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16736" started-at="2021-06-05T00:08:19 IST" finished-at="2021-06-05T00:08:36 IST">
+    <groups>
+    </groups>
+    <test name="firefox" duration-ms="11367" started-at="2021-06-05T00:08:19 IST" finished-at="2021-06-05T00:08:30 IST">
+      <class name="practice.crossbrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:practice.crossbrowser@1e6d1014]" name="beforeTest" is-config="true" duration-ms="8027" started-at="2021-06-05T00:08:19 IST" finished-at="2021-06-05T00:08:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:practice.crossbrowser@1e6d1014]" name="f" duration-ms="3278" started-at="2021-06-05T00:08:27 IST" finished-at="2021-06-05T00:08:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:practice.crossbrowser@1e6d1014]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-06-05T00:08:30 IST" finished-at="2021-06-05T00:08:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- practice.crossbrowser -->
+    </test> <!-- firefox -->
+    <test name="ChromeTest" duration-ms="5314" started-at="2021-06-05T00:08:30 IST" finished-at="2021-06-05T00:08:36 IST">
+      <class name="practice.crossbrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:practice.crossbrowser@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="1442" started-at="2021-06-05T00:08:30 IST" finished-at="2021-06-05T00:08:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:practice.crossbrowser@2d8f65a4]" name="f" duration-ms="3863" started-at="2021-06-05T00:08:32 IST" finished-at="2021-06-05T00:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:practice.crossbrowser@2d8f65a4]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-06-05T00:08:36 IST" finished-at="2021-06-05T00:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- practice.crossbrowser -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
